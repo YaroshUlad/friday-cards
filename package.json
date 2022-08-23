@@ -9,7 +9,6 @@
     "@mui/icons-material": "^5.8.4",
     "@mui/material": "^5.9.1",
     "@mui/styled-engine-sc": "^5.8.0",
-
     "axios": "^0.27.2",
     "formik": "^2.2.9",
     "gh-pages": "^4.0.0",
