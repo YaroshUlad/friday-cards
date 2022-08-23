@@ -12,7 +12,7 @@ export const forgotAPI = {
       from: 'test-front-admin <ai73a@yandex.by>',
       message: `<div style='background-color: lime; padding: 15px'>
 password recovery link: 
-<a href='http://localhost:3000/createNewPassword/$token$'>
+<a href='https://yaroshulad.github.io/friday-cards/#/createNewPassword/$token$'>
 link</a>
 </div>`,
     };
