@@ -1,32 +1,29 @@
 import React from 'react';
 
 import { Button } from '@mui/material';
-import { Navigate, useNavigate } from 'react-router-dom';
-
-import { LoginForm } from './loginForm/LoginForm';
+import { useNavigate } from 'react-router-dom';
 
 import { useAppSelector } from 'app/store';
+import img from 'assets/images/ava-img.jpg';
 import { FormWrapper } from 'common/components/formWrapper/FormWrapper';
 import { RoutePath } from 'common/enums/route-path';
 import { ReturnComponentType } from 'types/ReturnComponentType';
 
-export const Login = (): ReturnComponentType => {
-  const isLoggedIn = useAppSelector(state => state.login.isLoggedIn);
-
+export const CheckEmail = (): ReturnComponentType => {
   const navigate = useNavigate();
   const handleClickCancelRegister = (): void => navigate(RoutePath.Register);
 
-  if (isLoggedIn) {
-    return <Navigate to={RoutePath.Profile} />;
-  }
+  const email = useAppSelector(state => state.forgot.email);
 
   return (
     <FormWrapper>
       <h2>It-incubator</h2>
-      <h3>Sign In</h3>
-      <LoginForm />
-      <h4>Do not have an account? </h4>
-      <Button onClick={handleClickCancelRegister}>Sign Up</Button>
+      <div>
+        <img src={img} alt="logo" width="200px" />
+      </div>
+      <h4>Check email {email}</h4>
+      <p>We’ve sent an Email with instructions to {email || 'example@mail.com'}</p>
+      <Button onClick={handleClickCancelRegister}>Back to login</Button>
     </FormWrapper>
   );
 };

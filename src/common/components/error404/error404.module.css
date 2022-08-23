@@ -1,0 +1,20 @@
+.error_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.error_box div {
+    margin: 20px;
+}
+
+.error_title {
+    font-size: 50px;
+}
+
+.error_message {
+    font-size: 16px;
+
+}
+

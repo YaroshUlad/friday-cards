@@ -1,0 +1,15 @@
+.row:hover {
+    background-color: #f3f3f3;
+}
+
+.name:hover {
+    cursor: pointer;
+}
+
+.name p {
+    word-wrap:break-word;
+    max-width: 250px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}

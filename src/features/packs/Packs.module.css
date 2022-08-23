@@ -1,0 +1,20 @@
+.packsWrapper {
+    max-width: 1008px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.filterArea {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.filterAreaBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 20px;
+}
