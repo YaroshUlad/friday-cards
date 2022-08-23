@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/friday-cards/static/css/main.3e32f953.css",
+    "main.js": "/friday-cards/static/js/main.0bb8112b.js",
+    "static/js/787.28cb0dcd.chunk.js": "/friday-cards/static/js/787.28cb0dcd.chunk.js",
+    "static/media/defaultCover.jpg": "/friday-cards/static/media/defaultCover.fc004dd47645ad912fb9.jpg",
+    "static/media/defaultQuestionImage.jpg": "/friday-cards/static/media/defaultQuestionImage.261544d65f4a5de59717.jpg",
+    "static/media/ava-img.jpg": "/friday-cards/static/media/ava-img.ba4b6727f293f7f0032e.jpg",
+    "static/media/404.svg": "/friday-cards/static/media/404.d1e1632e390ff2517b662985bf2e997b.svg",
+    "index.html": "/friday-cards/index.html",
+    "main.3e32f953.css.map": "/friday-cards/static/css/main.3e32f953.css.map",
+    "main.0bb8112b.js.map": "/friday-cards/static/js/main.0bb8112b.js.map",
+    "787.28cb0dcd.chunk.js.map": "/friday-cards/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3e32f953.css",
+    "static/js/main.0bb8112b.js"
+  ]
+}
